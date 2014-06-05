@@ -1,0 +1,149 @@
+/*THESE ARE THE BUTTONS CSS DEFINITIONS*/
+#buttons ul{
+				list-style-type:none;
+				margin:0;
+				padding:5px;
+				overflow:hidden;
+				position:relative;
+			}
+
+#buttons a
+{
+display:block;
+border:solid 1px #000;
+background-color:black;
+width:150px;
+vertical-align: middle;
+padding:5px;
+font-weight:bold;
+color:#000;
+font-family:sans-serif;
+text-decoration:none;
+margin-left:2px;
+margin-top:2px;
+border-radius:5px;
+color: white;
+}
+
+#buttons li
+{
+display:inline-block;
+text-align:center;
+}
+
+#buttons a:hover{
+background-color:gold;
+color:#fff;
+}
+
+#buttons{
+text-align:center;
+}
+/*ENDS BUTTON CSS DEFINITIONS*/
+
+body {
+	background-image: -webkit-linear-gradient(top left, #596AFF 0%, #1AAD10 100%);
+	padding: 0px 200px 20px 200px;
+}
+
+#profilepic {
+	padding: 20px;
+	float: left;
+}
+
+.hcontent {
+	font-size: 25px;
+	font-family: "Times New Roman";
+	color: gold;
+}
+
+.pcontent {
+	font-size: 20px;
+	font-family: "Times New Roman";
+	color: white;
+}
+
+img #profilepic {
+	border-radius: 25px;
+}
+
+
+#headtext {
+	padding: 10px;
+	font-family: "Times New Roman";
+	font-size: 25px;
+	color: gold;
+	float: left;
+}
+
+ #suave img {
+	position: relative;
+	width: 300px;
+	height: 250px;
+	float: left;
+	padding: 20px;
+}
+
+#grandpa img {
+	position: relative;
+	width: 300px;
+	height: 250px;
+	float: left;
+}
+
+#grandma img {
+	position: relative;
+	width: 620px;
+	padding: 20px;
+	float: left;
+}
+
+#sailor img {
+	position: relative;
+	width: 300px;
+	padding: 20px;
+	float: left;
+}
+
+#skiing img {
+	position: relative;
+	width: 300px;
+	float: left;
+	padding: 20px 0px 0px 0px;
+}
+
+.containerone {
+	background-color: crimson;
+	width: 700px;
+	border-radius: 25px;
+	padding: 20px;
+}
+
+.containertwo {
+	background-color: crimson;
+	width: 700px;
+	border-radius: 25px;
+	padding: 20px;
+	height: 1800px;
+}
+
+.containerthree {
+	background-color: crimson;
+	width: 700px;
+	border-radius: 25px;
+	padding: 20px;
+}
+
+.containerfour {
+	background-color: crimson;
+	width: 700px;
+	border-radius: 25px;
+	padding: 20px;
+}
+
+.containerfive {
+	background-color: crimson;
+	width: 700px;
+	border-radius: 25px;
+	padding: 20px;
+}
