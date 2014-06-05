@@ -1,0 +1,96 @@
+.fullscreen {position: fixed !important;left: 0;top: 0;}
+.fullscreen .second-gallery-fullscreen-btn, .fullscreen .esi-gallery-fullscreen-btn {display: none;}
+.fullscreen .second-gallery-close-fullscreen, .fullscreen .esi-gallery-close-fullscreen {cursor: pointer;position:absolute;right:10px;top:14px;display:block;background: url("/independent.co.uk/assets/images/gallery/closeIcon.png") no-repeat 0 0;width: 35px;height: 35px;}
+.hide {display: none;}
+
+.second-gallery, .esi-gallery {position: relative;color: #fff;font: normal 14px Helvetica,Arial;line-height: 18px;background-color: #d3d3d3;z-index: 9999999;}
+.second-gallery a, .esi-gallery a {color: #b80000 !important;font-weight: bold;border: 0 none !important;}
+.second-gallery-loading-div, .esi-gallery-loading-div {position: relative;left: 35%;top: 200px;color: #000;height:500px;}
+.second-gallery-loading-div img, .esi-gallery-loading-div img {vertical-align: top;padding: 0 0 0 10px;}
+.second-gallery-dimmer, .esi-gallery-dimmer {position: fixed;z-index: 99999;display: none;width: 100%;height: 100%;top: 0;left: 0;opacity: 0;background: #000;}
+.second-gallery-slides-container, .esi-gallery-slides-container {background: #000;z-index: 9999999;position: relative;}
+.second-gallery-slides-wrapper, .esi-gallery-slides-wrapper {overflow:hidden;position:relative;z-index: 999;margin: 10px 10px 20px 10px;}
+.second-gallery-slides, .esi-gallery-slides {position: absolute;margin: 0;padding: 0;top: 0;left: 0;width: 1000%;list-style: none;transform: translateX(0%);}
+.second-gallery-slide, .esi-gallery-slide {text-align: center;position: relative;}
+.second-gallery-slide img, .esi-gallery-slide img {max-width: 100%;border: 1px solid #3c3c3c;vertical-align: middle;}
+.second-gallery-slide-info, .esi-gallery-slide-info {background-color: #252525;float: left;width: 320px;height: 100%;color: #fff;position: absolute;left: 300px;top: 0;z-index: 999999;}
+.second-gallery-slide-info-inner, .esi-gallery-slide-info-inner {padding: 20px 10px 10px 10px;}
+.second-gallery-share-btns, .esi-gallery-share-btns {height: 40px;}
+.second-gallery-slide-title, .esi-gallery-slide-title {font-weight: bold;font-size: 16px;padding: 10px 0 0 0;}
+.second-gallery-slide-caption, .esi-gallery-slide-caption {padding: 10px 0;overflow-y: auto;overflow-x: hidden;max-height: 190px;}
+.second-gallery-slide-caption a, .esi-gallery-slide-caption a {color:#fff!important;}
+.second-gallery-slide-credit, .esi-gallery-slide-credit {display: block;padding: 10px 0;}
+.second-gallery-mpu, .esi-gallery-mpu {position: absolute;left: 10px;bottom: 10px;}
+.second-gallery-nav-prev a, .esi-gallery-nav-prev a {z-index: 9999;background: url("/independent.co.uk/assets/images/gallery/left-chevron.png") no-repeat 0 0;color: #FFF;height: 35px;left: 10px;position: absolute;top: 48%;width: 35px;cursor: pointer;font-size: 0;}
+.second-gallery-nav-prev a:hover, .esi-gallery-nav-prev a:hover {background-image: url("/independent.co.uk/assets/images/gallery/left-chevron-ro.png");}
+.second-gallery-nav-next a, .esi-gallery-nav-next a {z-index: 9999;background: url("/independent.co.uk/assets/images/gallery/right-chevron.png") no-repeat 0 0;color: #FFF;height: 35px;right: 10px;position: absolute;top: 48%;width: 35px;cursor: pointer;font-size: 0;}
+.second-gallery-nav-next a:hover, .esi-gallery-nav-next a:hover {background-image: url("/independent.co.uk/assets/images/gallery/right-chevron-ro.png");}
+.second-gallery-fullscreen-btn, .esi-gallery-fullscreen-btn {cursor: pointer;position:absolute;right:18px;top:24px;display:block;background: url("/independent.co.uk/assets/images/gallery/fullscreen-btn.png") no-repeat 0 0;width: 20px;height: 20px;}
+.second-gallery-slide-counter, .esi-gallery-slide-counter {font-weight:bold;position: absolute;top: 20px;right: 10px;}		
+.second-gallery-slides-title, .esi-gallery-slides-title {font-size:22px;font-weight:bold;padding: 10px;margin: 0 70px 0 0;line-height: 22px;}
+.second-gallery-slides-description, .esi-gallery-slides-description {padding: 0 10px;}
+.second-gallery-slides-description p, .esi-gallery-slides-description p {display:none;}
+.second-gallery-thumbs-wrapper, .esi-gallery-thumbs-wrapper {width: 100%;height:70px; overflow: hidden;position: relative;}
+.second-gallery-thumbs, .esi-gallery-thumbs {list-style: none;margin: 0;padding: 0;position: absolute;}
+.second-gallery-thumb, .esi-gallery-thumb {float: left;padding: 0 0 0 12px;}
+.second-gallery-thumb img, .esi-gallery-thumb img {border: 4px solid #3b3b3b !important;width: 50px; height: 50px;}
+.second-gallery-thumb.active img, .esi-gallery-thumb.active img {border: 4px solid #fff !important;}
+.second-gallery-thumb img:hover, .esi-gallery-thumb img:hover {border: 4px solid #fff;cursor: pointer;}
+
+/* Overwrite 460x140 column overflow property */
+div#main div.x460x140 {overflow: visible !important;}
+
+/* Mobile specific */
+.second-gallery.mobile, .esi-gallery.mobile {background: transparent;margin: 15px 0;}
+.second-gallery.mobile .esi-mgallery-slides-title, .esi-gallery.mobile .esi-mgallery-slides-title { color: #000;font: bold 14px georgia;padding: 0 0 8px 0;}
+.second-gallery.mobile a, .esi-gallery.mobile a {background: #c1c1c1;color:red;border-radius:5px;display:block;padding:10px;text-align:center;text-decoration:none;vertical-align:middle;font-family: Georgia, "Times New Roman", Serif;font-size: 18px;line-height:22px;}
+.second-gallery.mobile a:after, .esi-gallery.mobile a:after {content: " (Gallery)";}
+/*hide the broken back to article link on mobile   */
+.gallery-back-to-article a {display: none !important;}
+
+/* updates */
+.second-gallery, .esi-gallery {clear:left;}
+.second-gallery-slides-title, .esi-gallery-slides-title {
+font-size: 22px;
+font-weight: bold;
+padding: 5px 0 27px 64px;
+margin: 0 70px 0 0;
+line-height: 22px;
+background: url(/independent.co.uk/assets/images/redesign/masthead/indy-masthead-gallery-50x50.png) no-repeat 5px 5px !important;
+font: 18px 'Open Sans', sans-serif bold !important;
+color: #b80000;
+}
+.second-gallery-slide-counter, .esi-gallery-slide-counter {
+position: absolute;
+top: 10px;
+right: 10px;
+font-family: 'Open Sans', sans-serif bold !important;
+font-size: 13px;
+}
+.second-gallery-slide-title, .esi-gallery-slide-title {
+font-weight: bold;
+font-size: 16px;
+padding: 10px 0 0 0;
+font-family: 'Open Sans', sans-serif bold !important;
+}
+.second-gallery-slide-caption, .esi-gallery-slide-caption {
+padding: 10px 0;
+overflow-y: auto;
+overflow-x: hidden;
+max-height: 190px;
+font-family: 'Open Sans', sans-serif bold !important;
+}
+.second-gallery-slide-credit, .esi-gallery-slide-credit {
+display: block;
+padding: 10px 0;
+font-family: 'Open Sans', sans-serif bold !important;
+}
+#esi-gallery-share-btns_gig_containerParent.esi-gallery-slide-info-inner.esi-gallery-slide-caption a {color: #fff !important;}
+.second-gallery-slide-caption, .esi-gallery-slide-caption {max-height:220px!important;}
+.second-gallery, .esi-gallery {font: normal 12px Helvetica,Arial!important;line-height: 15px!important;}
+
+
+.second-gallery-nav-prev a, .esi-gallery-nav-prev a {z-index: 9999;background: url("/independent.co.uk/assets/images/gallery/esi-gallery-v2-prev.png") no-repeat 0 0;color: #FFF;height: 25px;left: 15px;position: absolute;top: 48%;width: 25px;cursor: pointer;font-size: 0;}
+.second-gallery-nav-prev a:hover, .esi-gallery-nav-prev a:hover {background-image: url("/independent.co.uk/assets/images/gallery/esi-gallery-v2-prev-on.png");}
+.second-gallery-nav-next a, .esi-gallery-nav-next a {z-index: 9999;background: url("/independent.co.uk/assets/images/gallery/esi-gallery-v2-next.png") no-repeat 0 0;color: #FFF;height: 25px;right: 15px;position: absolute;top: 48%;width: 25px;cursor: pointer;font-size: 0;}
+.second-gallery-nav-next a:hover, .esi-gallery-nav-next a:hover {background-image: url("/independent.co.uk/assets/images/gallery/esi-gallery-v2-next-on.png");}

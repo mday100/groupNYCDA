@@ -1,0 +1,53 @@
+{
+
+var google_ads = new Array();
+var google_ad;
+var google_radlinks = new Array();
+var google_radlink;
+var google_info = new Object();
+google_ad = {}; 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = ""; 
+google_ad.url = "http://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=Ca5FyMM2QU9-aHdiA-gOR3ICYAqj4uZoImNPGvbcBqMKapU8QASDd6rEUKANQg5emsQZgycapi8Ck2A-gAYijr7sDyAEBqAMBqgSyAU_Q7PUXFAgQJZE5tl-DJh2ALFJwSCfrnLbjBbPhA0YbiHm4eW4AqGhgef-lI743O3M7nIuaojx8yQqXzd3b56J8IW71dQTY_IxBcbYXk_BxHz5bw_Fy_LPpBGxU6Z2qAB-MV9gA0dBRynfocfS-K-JBckt6KUhY95rEtecjSrANdknWc82778z1FdmObUm7IBaJYq0PIhfV9m0S9gUA2PKlg3mwV3Ov4rjLJT2YD8fte6CIBgGAB-Dc0EQ&amp;num=1&amp;cid=5GhfWCu4_6Y6pKzBfLn1Zfbf&amp;sig=AOD64_0Iogvf09ted1s1YddzJuK6NnQw9A&amp;client=ca-pub-5964551156905038&amp;adurl=https://ad.doubleclick.net/clk%3B274680710%3B102896411%3Bc"; 
+google_ad.visible_url = "google.com/Chromecast"; 
+google_ad.line1 = "Online Content Now on TV"; 
+google_ad.line2 = "Stream video and music on your TV"; 
+google_ad.line3 = "wirelessly! Buy now for only $35."; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = {}; 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = ""; 
+google_ad.url = "http://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=Cc06aMM2QU9-aHdiA-gOR3ICYApqx4Y4H4uaTg5EB8MSN7YYBEAIg3eqxFCgDULje3-b5_____wFgycapi8Ck2A-gAabuldcDyAEBqAMBqgSyAU_QnJkpFAsQJZE5tl-DJh2ALFJwSCfrnLbjBbPhA0YbiHm4eW4AqGhgef-lI743O3M7nIuaojx8yQqXzd3b56J8IW71dQTY_IxBcbYXk_BxHz5bw_Fy_LPpBGxU6Z2qAB-MV9gA0dBRynfocfS-K-JBckt6KUhY95rEtecjSrANdknWc82778zXRNePbUm7IBaJYq0PIhfV9m0S9gUA2PKlg3mwV3Ov4rjLJT2YD5Wsdc2IBgGAB8KR6ig&amp;num=2&amp;cid=5GhfWCu4_6Y6pKzBfLn1Zfbf&amp;sig=AOD64_2f2jT7AGlSvqMJcEtBlQkfuCDI3Q&amp;client=ca-pub-5964551156905038&amp;adurl=http://537.xg4ken.com/media/redir.php%3Fprof%3D253%26camp%3D39716%26affcode%3Dcr1602816%26cid%3D38851627666%7C1262574%7C%26mType%3D%26networkType%3Dcontent%26kdv%3Dc%26url%5B%5D%3Dhttp%253A%252F%252Finfo.chamberlain.edu%252Fgoogle_rnbsn_kct%253FVendor_cd%253D203072%2526KWID%253D31846242226"; 
+google_ad.visible_url = "www.chamberlain.edu"; 
+google_ad.line1 = "Nursing School Online"; 
+google_ad.line2 = "Earn Your RN To BSN in 3 Semesters."; 
+google_ad.line3 = "Online, Affordable \x26amp; User Friendly!"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = {}; 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = ""; 
+google_ad.url = "http://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=CBPdzMM2QU9-aHdiA-gOR3ICYAsmFhMoE-bbIrq0BqMKapU8QAyDd6rEUKANQnq3P2wNgycapi8Ck2A-gAceS79EDyAEBqAMBqgSyAU_Q_NYgFAoQJZE5tl-DJh2ALFJwSCfrnLbjBbPhA0YbiHm4eW4AqGhgef-lI743O3M7nIuaojx8yQqXzd3b56J8IW71dQTY_IxBcbYXk_BxHz5bw_Fy_LPpBGxU6Z2qAB-MV9gA0dBRynfocfS-K-JBckt6KUhY95rEtecjSrANdknWc82778z0AdiEbUm7IBaJYq0PIhfV9m0S9gUA2PKlg3mwV3Ov4rjLJT2YD56DS8iIBgGAB6HtkC4&amp;num=3&amp;cid=5GhfWCu4_6Y6pKzBfLn1Zfbf&amp;sig=AOD64_0cm_PgTGH6T6lvMrlEgq_T8lbipw&amp;client=ca-pub-5964551156905038&amp;adurl=http://ad.doubleclick.net/ddm/trackclk/N9037.134426.GOOGLEDISPLAYNETWOR/B7989440.108146282%3Bdc_trk_aid%3D282090929%3Bdc_trk_cid%3D58148047"; 
+google_ad.visible_url = "www.lifelock.com"; 
+google_ad.line1 = "LifeLock\x26#174; Official Site"; 
+google_ad.line2 = "Protect Your Identity in Minutes."; 
+google_ad.line3 = "24/7/365 Member Service Protection."; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_info.feedback_url = "https://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://www.independent.co.uk/environment/cruelty-to-crustaceans-save-the-lobster-406697.html%26gl%3DUS%26hl%3Den%26client%3Dca-pub-5964551156905038%26ai0%3DCa5FyMM2QU9-aHdiA-gOR3ICYAqj4uZoImNPGvbcBqMKapU8QASDd6rEUKANQg5emsQZgycapi8Ck2A-gAYijr7sDyAEBqAMBqgSyAU_Q7PUXFAgQJZE5tl-DJh2ALFJwSCfrnLbjBbPhA0YbiHm4eW4AqGhgef-lI743O3M7nIuaojx8yQqXzd3b56J8IW71dQTY_IxBcbYXk_BxHz5bw_Fy_LPpBGxU6Z2qAB-MV9gA0dBRynfocfS-K-JBckt6KUhY95rEtecjSrANdknWc82778z1FdmObUm7IBaJYq0PIhfV9m0S9gUA2PKlg3mwV3Ov4rjLJT2YD8fte6CIBgGAB-Dc0EQ%26ai1%3DCc06aMM2QU9-aHdiA-gOR3ICYApqx4Y4H4uaTg5EB8MSN7YYBEAIg3eqxFCgDULje3-b5_____wFgycapi8Ck2A-gAabuldcDyAEBqAMBqgSyAU_QnJkpFAsQJZE5tl-DJh2ALFJwSCfrnLbjBbPhA0YbiHm4eW4AqGhgef-lI743O3M7nIuaojx8yQqXzd3b56J8IW71dQTY_IxBcbYXk_BxHz5bw_Fy_LPpBGxU6Z2qAB-MV9gA0dBRynfocfS-K-JBckt6KUhY95rEtecjSrANdknWc82778zXRNePbUm7IBaJYq0PIhfV9m0S9gUA2PKlg3mwV3Ov4rjLJT2YD5Wsdc2IBgGAB8KR6ig%26ai2%3DCBPdzMM2QU9-aHdiA-gOR3ICYAsmFhMoE-bbIrq0BqMKapU8QAyDd6rEUKANQnq3P2wNgycapi8Ck2A-gAceS79EDyAEBqAMBqgSyAU_Q_NYgFAoQJZE5tl-DJh2ALFJwSCfrnLbjBbPhA0YbiHm4eW4AqGhgef-lI743O3M7nIuaojx8yQqXzd3b56J8IW71dQTY_IxBcbYXk_BxHz5bw_Fy_LPpBGxU6Z2qAB-MV9gA0dBRynfocfS-K-JBckt6KUhY95rEtecjSrANdknWc82778z0AdiEbUm7IBaJYq0PIhfV9m0S9gUA2PKlg3mwV3Ov4rjLJT2YD56DS8iIBgGAB6HtkC4\x26usg\x3dAFQjCNEEpQAiIqrb04EvpOZW6mKh1K3jxw";
+var google_attribution_text = "AdChoices";
+var google_is_rtl = false;
+if (window.google_ad_request_done) {
+google_ad_request_done(google_ads);
+}
+if (window.google_radlink_request_done) {
+google_radlink_request_done(google_radlinks);
+}
+}

@@ -1,0 +1,1 @@
+crtg_content = ''; (function(){document.cookie = 'cto2_independent=' + escape(crtg_content) + '; path=/; expires=Sat, 05 Jul 2014 22:03:57 GMT; domain=independent.co.uk';})();
