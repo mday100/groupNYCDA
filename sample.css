@@ -32,12 +32,13 @@ text-align:center;
 }
 
 #buttons a:hover{
-background-color:gold;
+background-color:green;
 color:#fff;
 }
 
 #buttons{
 text-align:center;
+position: fixed;
 }
 /*ENDS BUTTON CSS DEFINITIONS*/
 
