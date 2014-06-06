@@ -131,7 +131,7 @@ img #profilepic {
 	background-color: crimson;
 	width: 700px;
 	border-radius: 25px;
-	padding: 20px;
+	padding: 30px;
 }
 
 .containerfour {
@@ -146,4 +146,12 @@ img #profilepic {
 	width: 700px;
 	border-radius: 25px;
 	padding: 20px;
+}
+
+.videos {
+	text-align: center;
+}
+
+#mainpic {
+	float:left;
 }
